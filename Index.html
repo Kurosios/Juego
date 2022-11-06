@@ -8,21 +8,23 @@
     <LINK REL=StyleSheet HREF="css.css" TYPE="text/css" MEDIA=screen>
 </head>
 
-
 <body>
-
-    <body>
+<div class="contenedor">
+    <div class="capoa">
         <div class="hola">
-        <div class="punto"></div>
-       
-        
+            <div class="punto"></div>
         </div>
-        <div id="h" class="score">Puntuacion: </div>
-      <button class="reset"> resetear</button>
-      <button class="start" onclick="comenzar()"> start</button>
-      <button  onclick="stop()"> detener</button>
-      <div class="clab"></div>
-    </body>
+        <div class="informacion">
+            <div id="h" class="score"></div>
+            <div class="faltan"></div>
+        </div>
+    </div>
+    <div class="Botones">
+        <button class="reset"> resetear</button>
+        <button class="start"> start</button>
+        <button class="stop"> detener </button>
+    </div>
+</div>
 </body>
 
 <script src="Logica.js"></script>
