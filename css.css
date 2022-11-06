@@ -1,0 +1,35 @@
+*{padding:0;
+    margin:0;
+    box-sizing: border-box;}
+    
+    
+    .hola{
+    
+        width: 200px;
+        height: 200px;
+        display:flex;
+        background-color: brown;
+        margin:auto ;
+    }
+    .punto{
+        width: var(--c);
+        height: var(--d);
+        margin-top: var(--a);
+        margin-left: var(--b);
+        border-radius: 100%;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    
+    .hidden{
+      display:none;
+      transition: all 10s;
+    
+    }
+    
+    :root{
+      --a:150px;
+      --b:30px;
+      --c:30px;
+      --d:30px
+    }
