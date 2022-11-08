@@ -4,40 +4,35 @@
     
 
 .contenedor{
-  margin: auto;
-   width:600px;
-   height:600px;
-   border-radius:30%;
-   background: #f70;
-   display:flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content:space-around;
-   flex-wrap: wrap;
+  background:aqua;
+  height: 650px;
+  width: 650px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  margin:0 auto;
+  border-radius:5%;
+  display: flex;
+  flex-direction: column; 
 }
 
-.capoa{
-  display: flex;
-  flex-direction: row;
-}
-.hola{
-  width: 300px;
-  height: 300px;
-  border-radius:20%;
-  display:flex;
-  background-color: brown;
-  margin:auto ;
-  order:2;
-  flex-shrink: 0;
-  flex-grow: 1;
-}
+.uno{
+  background: #FE8112;
+  height: 400px;
+  width: 400px;
+  border-radius:5%;
+  position: relative;
+  margin:30px auto;
+} 
+
 .punto{
   width: var(--c);
   height: var(--d);
   margin-top: var(--a);
   margin-left: var(--b);
   border-radius: 100%;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
   cursor: pointer;
  }
         
@@ -48,54 +43,64 @@
   --d:30px
 }
 
-.informacion{
-  display: flex;
-  min-width: 100px;
-  flex-direction: column;
-  order:0;
-  flex-shrink: 0.5;
-  justify-content: center;
-
+.dos{
+    
+  height: 90px;
+  width: 400px;
+  border-radius:20px;
+  position: relative;
+  margin: 0 auto;
 }
+
 
 .score{
-  font-size:30px;
+  background: #719CFF;
+  font-size:25px;
+  text-align: center;
+  border:1px solid #46619D;
 
-
-
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
 }
 .faltan{
-  font-size:20px;
-
-
+  background: #719CFF;
+  font-size:25px;
+  text-align: center;
+  border:1px solid #46619D;
 
 }
+.max-punt{
+  background: #719CFF;
+  font-size:25px;
+  text-align: center;
+  border:1px solid #46619D;
 
-.Botones{
-  width: 100%;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+.tres{
+        
+  height: 30px;
+  width: 400px;
+  border-radius:20px;
+  position: relative;
+  margin: 10px auto;
+  justify-content: space-evenly;
   display: flex;
-  height: 100px;
-  justify-content:center;
-  padding:10px
+}
 
-}
-.Botones button{
-  width:70px;
+.tres button{
+  border-radius:10px;
+  padding:0px 5px;
+  border: 0.5px solid black;
+  background:#5AC4B7;
   color:white;
-  padding:10px;
-  border-radius:15px;
-  margin: 15px;
-  background-color:rgb(83, 83, 170);
-  border:none;
-  cursor:pointer;
-  transition: 0.3s;
+  cursor: pointer;
+  
 }
-.Botones button:hover{
-  background-color:rgb(107, 107, 220);
-  box-shadow: 5px 8px rgb(25, 0, 255);
-  transition: 0.3s;
-}
-.Botones button:active{
-  background-color:rgb(107, 107, 220);
-  transition: 0.3s;
+
+.tres button:hover{
+  background:#47FAE5;
+  box-shadow: 5px 5px #C05D00; 
 }
